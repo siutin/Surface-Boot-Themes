@@ -1,25 +1,23 @@
-# Designed for 1920x1020 resolution.
-
 message-font: "Ubuntu Regular 16"
 title-text: ""
 terminal-font: "Calibri Regular 16"
-desktop-image: "desktop.png"
+desktop-color: "255, 255, 255"
 terminal-box: "terminal_*.png"
 
 + boot_menu {  
-   left = 1250
-   width = 550
-   top = 350
-   height = 40%
-   item_font = "Ubuntu Regular 40"
+   left = 750
+   width = 1350
+   top = 400
+   height = 50%
+   item_font = "Ubuntu Regular 16"
    item_color = "#231f20"
-   selected_item_color= "#f08080"
-   icon_width = 78
-   icon_height = 80
-   item_height = 80
-   item_padding = 20
+   selected_item_color= "#c3c3c3"
+   icon_width = 312
+   icon_height = 320
+   item_height = 320
+   item_padding = 40
    item_icon_space = 40
-   item_spacing = 20
+   item_spacing = 40
    max_items_shown = 7
    scrollbar = false
 }
